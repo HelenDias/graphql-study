@@ -1,0 +1,35 @@
+{
+  "name": "nexus-api",
+  "version": "1.0.0",
+  "description": "Repo to create Nexus GraphQL APi example",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path ../.gitignore .",
+    "lint-fix": "eslint --ext .js --ignore-path ../.gitignore . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turbiani/graphql-studies/nexus-api"
+  },
+  "keywords": [
+    "graphql",
+    "javascript",
+    "api"
+  ],
+  "author": "turbiani",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.3.1",
+    "graphql-yoga": "^1.18.0",
+    "nexus": "^0.12.0-beta.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "nodemon": "^1.19.1"
+  }
+}
